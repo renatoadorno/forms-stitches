@@ -1,0 +1,48 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+input:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  label {
+    color: #3498db;
+  }
+}
+
+/* Adicionando um estilo especial para o input de email */
+input[type="email"] {
+  border-color: #3498db;
+  background-color: #ecf0f1;
+}
+
+input[type="email"]:hover {
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.1);
+}
+
+input[type="email"]:focus {
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.2);
+}
