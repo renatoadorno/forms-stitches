@@ -9,5 +9,5 @@ export default function Login1() {
       <label htmlFor="email">Email:</label><br />
       <input type="email" name="email" /><br />
     </form>
-  )
+  );
 }
